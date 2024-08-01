@@ -1,0 +1,27 @@
+.durability {
+    font-size: x-large;
+    color: var(--health-color);
+    background-color: var(--card-darker);
+    border-radius: 15px 15px 0 0;
+    padding: .4em .3em .4em 1em;
+    margin: 0 auto;
+    align-self: flex-end;
+}
+.durability_numb {
+    color:var(--card-light);
+    font-size: large;
+    margin-right: 1.5em;
+    margin-left: -1.3em;
+}
+
+.sanity {
+    color:var(--sanity-color);
+}
+
+.sanity .durability_numb {
+    text-shadow: 1.5px 1.5px var(--sanity-color);
+}
+
+.health .durability_numb {
+    text-shadow: 1.5px 1.5px var(--health-color);
+}

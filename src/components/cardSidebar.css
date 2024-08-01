@@ -1,0 +1,33 @@
+
+.skill {
+    font-size: xx-large;
+    color:var(--background)
+}
+
+.skill_container {
+    width: 29px;
+    padding:3px 0px;
+    border-bottom: solid var(--background) 2px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Arkham';
+}
+
+.combat {
+    background-color: var(--combat-color);
+}
+.intellect {
+    background-color: var(--intellect-color);
+}
+
+.agility {
+    background-color: var(--agility-color);
+}
+
+.willpower {
+    background-color: var(--willpower-color);
+}
+
+.wild {
+    background-color: var(--wild-color);
+}

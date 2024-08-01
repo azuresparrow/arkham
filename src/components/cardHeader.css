@@ -1,0 +1,43 @@
+.card_header_container { 
+    height: 2.5em;
+    width: 270px;
+    display: flex;
+
+    flex-direction: row;
+    border-radius: 0px 10px 0px 10px;
+    min-height: 35px;
+}
+
+.type_label {
+    font-size: xx-small;
+    text-transform: uppercase;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    margin: 0em -.2em 0em .4em;
+    align-self: center;
+    writing-mode: vertical-rl;
+    text-orientation:sideways;
+    rotate: 180deg;
+    font-weight: 400;
+    color:var(--background);
+}
+
+.card_name_container {
+    text-shadow: 1px 2px 2px var(--card-darker);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    padding: .3em;
+}
+
+.sub_name {
+    font-size: x-small;
+    color:var(--card-darker);
+    text-shadow: none;
+}
+
+.unique {
+    font-size: larger;
+    margin-left: -.3em;
+    color: var(--card-primary)
+}

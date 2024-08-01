@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Arkham';
+  src: url('../public/fonts/condensed-arkham.woff') format('woff');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

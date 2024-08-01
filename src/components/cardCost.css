@@ -1,0 +1,30 @@
+.cost_container {
+    width: 2em;
+    height:2em;
+    font-family: 'Arkham';
+    background-image: linear-gradient(var(--card-darker), var(--card-primary));
+    border-radius: 0 50% 0 50%;
+    margin-right: .4em;
+    margin:.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cost {
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.746);
+    font-size: large;
+}
+
+.skill_spacer {
+    font-family: 'Arkham';
+    margin:.3em;
+    color:var(--background);
+    font-size: xx-large;
+    padding-bottom: .2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

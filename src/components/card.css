@@ -1,0 +1,243 @@
+
+:root {
+    --img-path: url("../../public/images/01528.png");
+
+    --guardian-color: rgb(72, 72, 210);
+    --rogue-color: rgb(27, 99, 20);
+    --mystic-color: rgb(122, 55, 158);
+    --survivor-color: rgb(150, 50, 46);
+    --seeker-color: rgb(172, 154, 62);
+    --neutral-color: rgb(181, 181, 181);
+    --weakness-color: rgb(98, 98, 98);
+    --sanity-color: rgb(74,74,141);
+    --health-color: rgb(230, 51, 51);
+    --combat-color:  rgb(163, 69, 69);
+    --intellect-color:  rgb(122, 56, 91);
+    --agility-color: rgb(66, 121, 80);
+    --willpower-color: rgb(86, 79, 165);
+    --wild-color: rgb(158, 134, 72);
+
+    --background: #282c34;
+
+    --card-primary: rgb(55, 60, 71);
+    --card-mid: rgb(66, 72, 84);
+    --card-light: #b4b4b4;
+    --card-darker: rgb(45, 50, 59);
+    --card-darkest: rgb(33, 38, 48);
+    --transparent: rgba(255, 255, 255, 0);
+}
+
+.card {
+    background-color: var(--card-primary);
+    font-size: 70%;
+    border-radius: 0px 10px 0px 10px;
+    width: 300px;
+    height:200px;
+    margin:1em;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 30px 270px;
+    grid-template-rows: 200px 30px;
+    pointer-events: auto;
+}
+
+.card:hover{
+    transform: scale(1.35);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 10;
+    rotate: 1deg;
+  }
+.card:not(:hover) {
+    opacity: 0.9;
+  }
+
+
+
+.symbol { 
+    font-family: 'Arkham';
+    font-size: small;
+    padding:0em .1em .3em .1em;
+    vertical-align: middle;
+}
+
+
+.mystic {
+    color: var(--mystic-color);
+}
+
+.mystic_bg {
+    background-color: var(--mystic-color);
+}
+
+.mystic_name_container { 
+    background-color:  var(--mystic-color);
+    background-image: linear-gradient(to right, var(--mystic-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.guardian {
+    color: var(--guardian-color) ;
+}
+
+.guardian_bg {
+   background-color:var(--guardian-color);
+}
+
+.guardian_name_container { 
+    background-color:  var(--guardian-color);
+    background-image: linear-gradient(to right, var(--guardian-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.rogue {
+    color: var(--rogue-color);
+}
+
+.rogue_bg {
+    background-color: var(--rogue-color);
+}
+
+.rogue_name_container { 
+    background-color:  var(--rogue-color);
+    background-image: linear-gradient(to right, var(--rogue-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.seeker {
+    color: var(--seeker-color);
+}
+
+.seeker_bg {
+    background-color: var(--seeker-color);
+}
+
+.seeker_name_container { 
+    background-color:  var(--seeker-color);
+    background-image: linear-gradient(to right, var(--seeker-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.survivor {
+    color: var(--survivor-color);
+}
+
+.survivor_bg {
+    background-color: var(--survivor-color);
+}
+
+.survivor_name_container { 
+    background-color:  var(--survivor-color);
+    background-image: linear-gradient(to right, var(--survivor-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.weakness {
+    color: var(--weakness-color);
+}
+
+.weakness_bg {
+    background-color: var(--weakness-color);
+}
+
+.weakness_name_container { 
+    background-color:  var(--weakness-color);
+    background-image: linear-gradient(to right, var(--weakness-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.neutral {
+    color: var(--neutral-color);
+}
+
+.neutral_bg {
+    background-color: var(--neutral-color);
+}
+
+.neutral_name_container { 
+    background-color:  var(--neutral-color);
+    background-image: linear-gradient(to right, var(--neutral-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+
+.card_side {
+    border-right: solid var(--background) 2px;
+}
+
+
+.card_side span {
+    margin: auto;
+    color: var(--background);
+}
+
+.card_text {
+    font-size: x-small;
+    width:250px;
+    display: block;
+    padding:.2em 0em 0em 1em;
+}
+
+.card_flavor {
+    font-size: x-small;
+    display: block;
+    font-style: italic;
+    width: 250px;
+    color: var(--card-light);
+    padding:1em 0em 0em 1em;
+}
+
+.card_traits{
+    font-size: xx-small;
+    line-height: .6em;
+    padding: .5em 0em 0em 1em;
+}
+
+.experience {
+    float:right;
+    padding:.1em;
+    margin-right: .3em;
+}
+
+
+
+.slots {
+    font-size: x-large;
+    color: var(--card-mid);
+    align-self: flex-end;
+    padding: .6em;
+    background-color: var(--card-darker);
+    border-radius: 15px 0 0 0 ;
+    text-align: right;
+
+}
+
+.card_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 1em;
+    width:300px;
+    background-color: var(--card-darker);
+    border-radius: 0 0 0 10px;
+}
+
+.set_symbol {
+    justify-content: flex-end;
+    color: var(--card-mid);
+    padding: .3em;
+    margin-left:-2em;
+}
