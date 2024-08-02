@@ -1,0 +1,70 @@
+.investigator_willpower {
+    color: var(--willpower-color);
+}
+
+.investigator_intellect {
+    color: var(--intellect-color);
+}
+
+.investigator_combat {
+    color: var(--combat-color);
+}
+
+.investigator_agility {
+    color: var(--agility-color);
+}
+
+.skill_icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skill_cover {
+    color: white;
+}
+
+.icon_bundle {
+    position: relative;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    font-size: larger;
+}
+
+.statline {
+    display: flex;
+    font-size: large;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.investigator { 
+    background-color: var(--card-primary);
+    width: 270px;
+    border-radius: 0 10px 0 10px;
+    margin: .5em;
+    text-align: left;
+}
+
+.investigator img {
+    border-radius: 10px;
+    margin: .4em;
+}
+
+.investigator .card_footer{
+    width: 270px;
+}
+
+.investigator_stat {
+    width:3em;
+    padding: .2em;
+    margin: .2em;
+    border-radius: 10px;
+    background-color: var(--card-darker);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: var(--card-light)
+}

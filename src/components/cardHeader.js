@@ -7,11 +7,13 @@ import "./cardHeader.css";
 
 function CardHeader({info, card_class}){
     //Set card image within gradient/bg colors
-    const style=  {'--img-path': `url('/images/${info.code}.png')`}
+    const style=  {'--img-path': `url('/images/${info.code}.webp')`}
     const type = info.type_code;
     return (
         <div className={`card_header_container ${card_class}_name_container`} style={style}>
-            <span className="type_label">{type}</span>
+            {!(type == 'treachery') &&
+                <span className="type_label">{type}</span>
+            }
             <CardCost type={type} card_class={card_class} cost={info.cost} />
             {info.is_unique &&
                 <div className="unique symbol">*</div>

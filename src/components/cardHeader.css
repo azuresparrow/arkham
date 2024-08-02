@@ -41,3 +41,57 @@
     margin-left: -.3em;
     color: var(--card-primary)
 }
+
+.mystic_name_container { 
+    background-color:  var(--mystic-color);
+    background-image: linear-gradient(to right, var(--mystic-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.guardian_name_container { 
+    background-color:  var(--guardian-color);
+    background-image: linear-gradient(to right, var(--guardian-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.rogue_name_container { 
+    background-color:  var(--rogue-color);
+    background-image: linear-gradient(to right, var(--rogue-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.seeker_name_container { 
+    background-color:  var(--seeker-color);
+    background-image: linear-gradient(to right, var(--seeker-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.survivor_name_container { 
+    background-color:  var(--survivor-color);
+    background-image: linear-gradient(to right, var(--survivor-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+
+.weakness_name_container { 
+    background-color:  var(--weakness-color);
+    background-image: linear-gradient(to right, var(--weakness-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.neutral_name_container { 
+    background-color:  var(--neutral-color);
+    background-image: linear-gradient(to right, var(--neutral-color)45%, var(--transparent)), var(--img-path);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}

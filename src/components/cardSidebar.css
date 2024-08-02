@@ -1,3 +1,11 @@
+.card_side {
+    border-right: solid var(--background) 2px;
+}
+
+.card_side span {
+    margin: auto;
+    color: var(--background);
+}
 
 .skill {
     font-size: xx-large;

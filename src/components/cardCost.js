@@ -11,7 +11,7 @@ function CardCost({type, card_class, cost}){
     //force there to be a visual difference between cards without a cost - and cards that cost 0
     if(fixed_cost !== 0 && !fixed_cost) fixed_cost = '-';
 
-    if(type != "skill"){
+    if(type != "skill" && type != "investigator"){
         return (
         <div className="cost_container">
             <span className={`cost ${card_class}`}>{fixed_cost}</span>    

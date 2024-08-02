@@ -1,0 +1,27 @@
+.slots {
+    font-size: x-large;
+    color: var(--card-mid);
+    align-self: flex-end;
+    padding: .6em;
+    background-color: var(--card-darker);
+    border-radius: 15px 0 0 0 ;
+    text-align: right;
+
+}
+
+.card_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 1em;
+    width:300px;
+    background-color: var(--card-darker);
+    border-radius: 0 0 0 10px;
+}
+
+.set_symbol {
+    justify-content: flex-end;
+    color: var(--card-mid);
+    padding: .3em;
+    margin-left:-2em;
+}

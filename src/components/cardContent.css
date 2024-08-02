@@ -1,0 +1,50 @@
+
+
+.card_text {
+    font-size: x-small;
+    width:250px;
+    display: block;
+    padding:.2em 0em 0em 1em;
+}
+
+.card_flavor {
+    font-size: x-small;
+    display: block;
+    font-style: italic;
+    width: 250px;
+    color: var(--card-light);
+    padding:1em 0em 0em 1em;
+}
+
+.card_traits{
+    font-size: xx-small;
+    line-height: .6em;
+    padding: .5em 0em 0em 1em;
+}
+
+.top_right {
+    float:right;
+    padding:.1em;
+    margin-right: .3em;
+}
+
+.card_type2 {
+    font-size: x-small;
+    text-transform: uppercase;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 2em;
+    color:var(--card-light)
+}
+
+.horror {
+    color:var(--sanity-color);
+    font-size: large;
+    line-height:2em;
+}
+
+.damage {
+    color:var(--health-color);
+    font-size: large;
+    line-height: 2em;
+}
