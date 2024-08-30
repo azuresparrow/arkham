@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+
 import Card from './components/card';
 import { investigator_data, card_data } from './utils';
 import "./app.css";
 import Investigator from './components/investigator';
-
+import { Link, BrowserRouter } from 'react-router-dom';
+import Router from './Router';
 
 function App() {
   const investigatorList = [];
@@ -17,14 +18,25 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-
-       <div style={{display:'flex', flexWrap:'wrap'}}>
-          {investigatorList[0]}
-          {cardList}
-       </div>
-     </header>
-    </div>
+        
+        <BrowserRouter>
+        <div className='App-header'>
+            <Link to={`/`}><h2>Cursed Bag</h2> </Link>
+            <div className='navBar'>
+                  <Link to={`/cards/`}>
+                    <span>Cards</span>
+                  </Link>
+                  <Link to={`/decks/`}>
+                  <span>Decks</span>
+                  </Link>
+                  <Link to={`/investigators/`}>
+                  <span>Investigators</span>
+                  </Link>
+                </div>
+            </div>
+          <Router/>
+        </BrowserRouter>
+      </div>
   );
 }
 

@@ -11,7 +11,8 @@ function Investigator({info}){
 
     return (
         <React.Fragment>
-            
+                    <div><img src={`../images/investigators/${info.code}.webp`}></img></div>
+       
         <div className="investigator">
             <CardHeader info={info} card_class={info.faction_code}></CardHeader>
             <div className="statline symbol">
@@ -50,11 +51,9 @@ function Investigator({info}){
            <CardFooter info={info}></CardFooter>
         </div>
         <div className="investigator">
-            
-        <img src={`./images/investigators/${info.code}.webp`}></img>
             <CardContent info={info} isBack='true'/>
         </div>
-        
+ 
         </React.Fragment>
     );
 }

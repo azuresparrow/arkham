@@ -1,0 +1,15 @@
+.App-logo{
+    width: 100px;
+}
+
+.home p {
+    font-family: 'Lato';
+    font-weight: 200;
+    font-size: xxx-large;
+}
+
+.home span {
+    color: #9500DE;
+    font-size: smaller;
+    font-style: italic;
+}

@@ -50,7 +50,7 @@ function CardContent({info, card_class, isBack=false}){
     return (
         <div className="card_content">
             {xp != "" &&
-                <span className={`top_right ${card_class}`}>{xp}</span>
+                <span className={`top_right`}>{xp}</span>
             }
             {info.type_code == 'enemy' &&
                  <span className='top_right symbol'><span className="damage">{damage}</span><span className="horror">{horror}</span></span>
